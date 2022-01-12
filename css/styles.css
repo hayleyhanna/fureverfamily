@@ -1,4 +1,3 @@
-@charset "UTF-8";
 *,
 *::before,
 *::after {
@@ -13,16 +12,13 @@
 
 body {
   margin: 0;
+  position: relative;
+  overflow-x: hidden;
 }
-
-hr {
-  margin: 1rem 0;
-  color: inherit;
-  background-color: currentColor;
-  border: 0;
-  opacity: 0.25;
+html {
+  scroll-padding-top: 4.5rem;
 }
-
+/* ---- General Styles ----*/
 h4,
 .h4,
 h2,
@@ -39,14 +35,6 @@ h2,
     flex: 0 0 auto;
     width: 33.33333333%;
   }
-}
-/* ---- General Styles ----*/
-body {
-  position: relative;
-  overflow-x: hidden;
-}
-html {
-  scroll-padding-top: 4.5rem;
 }
 
 .page-section {
@@ -80,12 +68,7 @@ html {
   background-color: rgb(207, 182, 182);
   border-color: rgb(207, 182, 182);
 }
-.btn.active.focus, .btn.active:focus, 
-.btn.focus, .btn:active.focus, 
-.btn:active:focus, .btn:focus {
-  outline: 0;
-  border:1
-}
+
 /*---- Navbar ----*/
 .fixed-top {
   position: fixed;
@@ -352,10 +335,10 @@ p {
 .mobile-btn{
   background-color: #f3cdcd;
   border-radius:20px;
-  border-color: #14141410;
-  color: rgb(51, 50, 50);
   font-size: 1rem;
   font-weight: 550;
+  outline: 0;
+  border:0;
 }
 @media (min-width: 992px) {
   .mobile-btn {
@@ -379,6 +362,13 @@ p {
   }
 }
 /*---- Testimonial ----*/
+hr {
+  margin: 1rem 0;
+  color: inherit;
+  background-color: currentColor;
+  border: 0;
+  opacity: 0.25;
+}
 .card {
   position: relative;
   display: flex;
