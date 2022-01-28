@@ -343,11 +343,7 @@ outline: 0;
     display: none;
   }
 }
-@media (max-width: 991.98px) {
-  .mobile-hide {
-    display: none;
-  }
-}
+
 @media (max-width: 575.98px) {
   #portfolio .portfolio-item .portfolio-caption {
    border-bottom: 2px solid #dddddd;
