@@ -19,42 +19,8 @@ html {
   scroll-padding-top: 4.5rem;
 }
 /* ---- General Styles ----*/
-h4,
-.h4,
-h2,
-.h2
- {
-  margin-top: 0;
-  margin-bottom: 0.5rem;
-  font-weight: 700;
-  line-height: 1.2;
-}
-
-@media (min-width: 992px) {
-  .col-lg-4 {
-    flex: 0 0 auto;
-    width: 33.33333333%;
-  }
-}
-
-.page-section {
-  padding: 4rem 0;
-}
-.page-section h2.section-heading,
-.page-section .section-heading.h2 {
-  font-size: 1.76rem;
-  margin-top: 0;
-  margin-bottom: 2.5rem;
-}
-
-@media (min-width: 768px) {
-  section {
-    padding: 9rem 0;
-  }
-}
 
 .btn {
-  font-weight: 700;
   color: rgb(37, 37, 37);
   background-color: #f3cdcd;
   border-color: #f3cdcd;
@@ -76,10 +42,8 @@ h2,
 }
 .nav-link,
 .navbar-brand {
-    color: rgb(24, 24, 24);
     letter-spacing: 4px;
-    cursor: pointer; 
-    font-size:1rem;
+    cursor: pointer;   
 }
 .nav-link {
     margin-right: 1em;
@@ -93,7 +57,6 @@ header.masthead {
   padding-top: 10.5rem;
   padding-bottom: 6rem;
   text-align: center;
-  color: #100c08;
   text-shadow: 2px 7px 5px rgba(0, 0, 0, 0.3),
     0px -4px 10px rgba(255, 255, 255, 0.3);
   background-image: url("../assets/img/header-bg.jpg");
@@ -102,22 +65,7 @@ header.masthead {
   background-position: right top;
   background-size: cover;
 }
-header.masthead .masthead-subheading {
-  font-size: 1rem;
-  font-style: italic;
-  line-height: 1.5rem;
-  margin-bottom: 25px;
-}
-header.masthead .masthead-heading {
-  font-size: 2.25rem;
-  font-weight: 700;
-  line-height: 3.25rem;
-  margin-bottom: 2rem;
-}
-p {
-  line-height: 1.75;
-  font-size: 1.1rem;
-}
+
 
 @media (min-width: 768px) {
   header.masthead {
@@ -306,13 +254,6 @@ outline: 0;
   }
 }
 /*---- Testimonial ----*/
-hr {
-  margin: 1rem 0;
-  color: inherit;
-  background-color: currentColor;
-  border: 0;
-  opacity: 0.25;
-}
 .card {
   position: relative;
   display: flex;
@@ -326,10 +267,7 @@ hr {
   margin-left:4rem;
   margin-right:4rem;
 }
-.card > hr {
-  margin-right: 0;
-  margin-left: 0;
-}
+
 .card-img,
 .card-img-top {
   border-top-left-radius: calc(0.25rem - 1px);
@@ -343,25 +281,14 @@ hr {
 }
 
 /*---- Team Members ----*/
-.team-member {
-  margin-bottom: 3rem;
-  text-align: center;
-}
 .team-member img {
   width: 14rem;
   height: 14rem;
-  border: 0.5rem solid rgba(0, 0, 0, 0.1);
+  border: 0.5rem solid #f3cdcd;
 }
-.team-member h4,
-.team-member .h4 {
-  margin-top: 1.5rem;
-  margin-bottom: 0;
-  font-size: 1.5rem;
-}
+
 /*---- Footer ----*/
 .footer {
-  text-align: center;
-  font-size: 0.9rem;
   background-color: #badfe0;
 }
 .btn-social {
